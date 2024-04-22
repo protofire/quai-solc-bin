@@ -1,6 +1,5 @@
-
 var soljsonSources = [
-  "solc-linux-amd64-v0.8.25+commit.b61c2a91",
+  "solc-static-linux-v0.8.19-solidityx+commit.c88f40f",
   "solc-linux-amd64-v0.8.24+commit.e11b9ed9",
   "solc-linux-amd64-v0.8.23+commit.f704f362",
   "solc-linux-amd64-v0.8.22+commit.4fc1097e",
@@ -80,10 +79,10 @@ var soljsonSources = [
   "solc-linux-amd64-v0.4.13+commit.0fb4cb1a",
   "solc-linux-amd64-v0.4.12+commit.194ff033",
   "solc-linux-amd64-v0.4.11+commit.68ef5810",
-  "solc-linux-amd64-v0.4.10+commit.9e8cc01b"
+  "solc-linux-amd64-v0.4.10+commit.9e8cc01b",
 ];
 var soljsonReleases = {
-  "0.8.25": "solc-linux-amd64-v0.8.25+commit.b61c2a91",
+  "0.8.19-solidityx": "solc-static-linux-v0.8.19-solidityx+commit.c88f40f",
   "0.8.24": "solc-linux-amd64-v0.8.24+commit.e11b9ed9",
   "0.8.23": "solc-linux-amd64-v0.8.23+commit.f704f362",
   "0.8.22": "solc-linux-amd64-v0.8.22+commit.4fc1097e",
@@ -163,11 +162,11 @@ var soljsonReleases = {
   "0.4.13": "solc-linux-amd64-v0.4.13+commit.0fb4cb1a",
   "0.4.12": "solc-linux-amd64-v0.4.12+commit.194ff033",
   "0.4.11": "solc-linux-amd64-v0.4.11+commit.68ef5810",
-  "0.4.10": "solc-linux-amd64-v0.4.10+commit.9e8cc01b"
+  "0.4.10": "solc-linux-amd64-v0.4.10+commit.9e8cc01b",
 };
 
-if (typeof(module) !== 'undefined')
+if (typeof module !== "undefined")
   module.exports = {
-    'allVersions': soljsonSources,
-    'releases': soljsonReleases
+    allVersions: soljsonSources,
+    releases: soljsonReleases,
   };
