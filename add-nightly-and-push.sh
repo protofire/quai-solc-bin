@@ -40,7 +40,6 @@ npm install
 npm run update
 rm -r node_modules/
 
-git add --verbose bin/soljson-nightly.js
 git add --verbose bin/list.*
 
 git commit --message "Nightly build ${nightly_version}"
