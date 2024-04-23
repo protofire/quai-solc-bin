@@ -901,10 +901,10 @@
       ]
     },
     {
-      "path": "solc-static-linux-v0.8.19-solidityx+commit.c88f40f",
+      "path": "solc-static-linux-v0.8.19+commit.c88f40f",
       "version": "0.8.19",
       "build": "commit.c88f40f",
-      "longVersion": "0.8.19-solidityx+commit.c88f40f",
+      "longVersion": "0.8.19+commit.c88f40f",
       "keccak256": "0x051a6b2d12a1ad59e58bafc18cd55018fb0435b0f2714a970bb547b9be091fed",
       "sha256": "0xf667915f7b33ea463583e1d2bacea127e501b0413e5505806cc958506f1446e1",
       "urls": [
@@ -913,7 +913,7 @@
     }
   ],
   "releases": {
-    "0.8.19": "solc-static-linux-v0.8.19-solidityx+commit.c88f40f",
+    "0.8.19": "solc-static-linux-v0.8.19+commit.c88f40f",
     "0.8.18": "solc-linux-amd64-v0.8.18+commit.87f61d96",
     "0.8.17": "solc-linux-amd64-v0.8.17+commit.8df45f5f",
     "0.8.16": "solc-linux-amd64-v0.8.16+commit.07a7930e",
@@ -989,5 +989,5 @@
     "0.4.11": "solc-linux-amd64-v0.4.11+commit.68ef5810",
     "0.4.10": "solc-linux-amd64-v0.4.10+commit.9e8cc01b"
   },
-  "latestRelease": "0.8.19-solidityx"
+  "latestRelease": "0.8.19"
 }
