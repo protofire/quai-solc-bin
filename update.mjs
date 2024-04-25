@@ -274,7 +274,7 @@ function processDir (dir, options, listCallback) {
 
     // latest release
     const latestReleaseFile = releases[latestRelease]
-
+  
     // Write list.txt
     // A descending list of file names.
     writeFile(join(__dirname, dir, '/list.txt'), buildNames.join('\n'), function (err) {
@@ -376,10 +376,10 @@ function parseCommandLine () {
 }
 
 const DIRS = [
-  '/bin',
+  // '/bin',
   '/linux-amd64',
   '/macosx-amd64',
-  '/windows-amd64'
+  // '/windows-amd64'
 ]
 
 const options = parseCommandLine()

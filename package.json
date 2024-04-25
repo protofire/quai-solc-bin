@@ -2,7 +2,7 @@
   "private": true,
   "name": "solc-bin",
   "version": "0.0.0",
-  "description": "Current and historical (emscripten) binaries for Solidity",
+  "description": "Current and historical (emscripten) binaries for SolidityX",
   "dependencies": {
     "semver": "^7.3.5"
   },
@@ -18,18 +18,10 @@
     "update": "node update.mjs --max-files-per-batch 1",
     "test": "git checkout -f && npm run update && git diff --exit-code"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ethereum/solc-bin.git"
-  },
   "keywords": [
-    "ethereum",
-    "solidity"
+    "quai",
+    "solidityx"
   ],
   "author": "",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/ethereum/solc-bin/issues"
-  },
-  "homepage": "https://github.com/ethereum/solc-bin#readme"
+  "license": "GPL-3.0"
 }
