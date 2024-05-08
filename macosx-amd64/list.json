@@ -8,8 +8,7 @@
       "keccak256": "0x6b543ccd6b0e7f5d248aea1851a30a619c7ad07a2dd2fad44666bdb6bbc0b96d",
       "sha256": "0xf667915f7b33ea463583e1d2bacea127e501b0413e5505806cc958506f1446e1",
       "urls": [
-        "bzzr://30eddee3c498c3135d29ef7fb9713b86bece84ab9a3dcaeba2d237d955a77e23",
-        "dweb:/ipfs/QmUQ6DSqEY5hkmWRtQvMa4y4u5JrK1QCdpTjfLTkSjSMut"
+        "https://github.com/dominant-strategies/SolidityX/releases/download/0.8.19-solidityx/solc-osx"
       ]
     }
   ],
